@@ -18,7 +18,6 @@ test.describe('Locators', ()=>{
     test('LoginToOrangeHrm', async({page})=>{
     await page.goto("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login")
 
-    // await page.locator('id').click(); two types
 
     await page.fill('input[name=username]', 'Admin');
 
@@ -32,7 +31,4 @@ test.describe('Locators', ()=>{
 
     await page.waitForTimeout(2000);
 });
-
-
-
 });
