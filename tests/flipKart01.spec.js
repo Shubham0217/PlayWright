@@ -21,7 +21,9 @@ test.describe('Flipkart', () => {
 
         await page.waitForTimeput(2000);
 
-        await page.click("2000")
+        await page.click("2000");
+
+        await page.click
 
     });
 });
