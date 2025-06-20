@@ -23,7 +23,5 @@ test.describe('Flipkart', () => {
 
         await page.click("2000");
 
-        await page.click
-
     });
 });
