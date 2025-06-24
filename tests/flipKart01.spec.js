@@ -15,11 +15,11 @@ test.describe('Flipkart', () => {
         await page.waitForSelector("//span[text() = 'Login']", { timeout: 5000 });
 
         await page.click("//span[text() = 'Login']");
-        await page.waitForTimeout(2000);
+        await page.waitForTimeout(200);
 
         await page.fill("//input[@class='r4vIwl BV+Dqf']",  "7509474508");
 
-        await page.waitForTimeput(2000);
+        await page.waitForTimeput(200);
 
         await page.click("2000");
         
