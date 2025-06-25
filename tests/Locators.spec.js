@@ -12,7 +12,6 @@ test.describe('verify Title', ()=> {
 });
 
 
-
 test.describe('Locators', ()=>{
 
     test('LoginToOrangeHrm', async({page})=>{

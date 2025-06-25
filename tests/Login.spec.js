@@ -7,9 +7,7 @@ test.describe('Login Page', () => {
         await page.fill('input[name="username"]', 'Admin');
         await page.fill('input[name="password"]', 'admin123');
         await page.click('button[type="submit"]');
-        
         await page.waitForTimeout(10000);
-
         await expect(page).toHaveURL('https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index');
     });
 });

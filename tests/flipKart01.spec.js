@@ -11,9 +11,7 @@ test.describe('Flipkart', () => {
 
     test('LoginFlipkart', async ({ page }) => {
         await page.goto("https://www.flipkart.com/");
-
         await page.waitForSelector("//span[text() = 'Login']", { timeout: 5000 });
-
         await page.click("//span[text() = 'Login']");
         await page.waitForTimeout(200);
 
