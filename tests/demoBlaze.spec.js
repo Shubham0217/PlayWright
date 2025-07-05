@@ -9,6 +9,7 @@ test('Home Page', async({page})=>{
     console.log(pagetitle); //this will print the title of the page in console
 
     await expect(page).toHaveTitle('STORE'); // Await the expect
+    
 
     const pageurl = page.url(); // Correct way to get URL
     console.log(pageurl); //this will print the url of the page in console
